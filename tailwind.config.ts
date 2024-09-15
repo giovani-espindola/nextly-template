@@ -15,6 +15,7 @@ const config: Config = {
     extend: {
       colors: {
         trueGray: colors.neutral,
+        logo: '#c84449'
       },
     },
     fontFamily: {

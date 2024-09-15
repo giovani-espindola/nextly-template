@@ -1,60 +1,59 @@
 import {
+  Battery100Icon,
   FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
+  BoltIcon,
+  HeartIcon,
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../../public/img/dai-dicas-1.jpg";
+import benefitTwoImg from "../../public/img/dai-dicas-2.jpg";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: 'O Ser que você Será lhe espera!',
+  desc: "Tantra oferece uma conexão transcendente com a fonte da vida e o viver, que estão acessíveis e disponíveis a qualquer ser humano, sem privilégios.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Ejaculação Precoce",
+      desc: "Oferecemos uma metodologia que promove a reeducação sensorial com base na percepção da energia sexual.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Falta de Libido e Tesão em Viver",
+      desc: "O prazer e o afeto são explorados de forma consciente e com um propósito não-sexual, abrindo os caminhos de mobilização e de expansão da energia sexual através do seu corpo",
+      icon: <Battery100Icon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Anorgasmia (Falta de Orgasmos)",
+      desc: "O terapeuta sente as áreas de menor reação e conduz os estímulos de tal forma que sensibiliza as áreas congeladas e neutras, restaurando a sensibilidade e os reflexos musculares",
+      icon: <BoltIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Através de toda a sutileza, amor e carinho do Tantra, transmutamos o ser.",
+  desc: "Tendo adquirido o uso dos sentidos internos, tendo vencido os desejos dos sentidos externos, tendo vencido os desejos da alma individual, e tendo adquirido conhecimento, prepare-se agora para entrar realmente no caminho",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Depressão",
+      desc: "A Terapêutica Tântrica, aplicada em sessões individuais ajudam a controlar casos leves ou moderados de depressão.",
+      icon: <FaceSmileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Dor no Sexo (Dispareunia)",
+      desc: "Desenvolvemos uma metodologia onde o terapeuta sente e reconhece os sinais fisiológicos que o corpo comunica, reduzindo as tensões e conectando, pouco a pouco, os músculos sexuais com o prazer.",
+      icon: <HeartIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Impotência Sexual",
+      desc: "Pesquisamos o potencial do corpo em readaptar-se aos estímulos que provocam uma releitura no potencial de prazer do corpo",
       icon: <SunIcon />,
     },
   ],
 };
 
 
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
